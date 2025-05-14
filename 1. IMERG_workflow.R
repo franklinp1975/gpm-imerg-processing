@@ -146,7 +146,7 @@ for (i in 1:a) {
                        aoi = regions$Venezuela)
 
   r[r == missing_data] <- NA  # Set missing data to NA
-  rc <- r * scaling_factor # Convert from mm/hr to mm
+  rc <- r * scaling_factor * time_step # Convert from mm/hr to mm
 
   fname_base <- unlist(strsplit(names(r), ".", fixed = TRUE))
 
