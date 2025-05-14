@@ -176,7 +176,7 @@ a <- length(imerg_files)
 for (i in 1:a) {
   r <- process_raster(file_path = imerg_files[i], template = template_raster, aoi = regions$Venezuela)
   r[r == missing_data] <- NA
-  rc <- r * scaling_factor
+  rc <- r * scaling_factor * time_step
   fname_base <- unlist(strsplit(names(r), ".", fixed = TRUE))
   fname <- paste(c(fname_base[4], tag[i], "tif"), collapse = ".")
   writeRaster(rc, file.path(dir_config$output, fname), overwrite = TRUE)
