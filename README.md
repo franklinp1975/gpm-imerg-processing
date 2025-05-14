@@ -198,6 +198,3 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 For any questions or feedback, please contact [franklinparedes75@gmail.com](franklinparedes75@gmail.com).
 
----
-
-This markdown file is ready to be copied and pasted into your GitHub repository. It provides a comprehensive overview of the script, installation instructions, usage guidelines, and data download instructions.
