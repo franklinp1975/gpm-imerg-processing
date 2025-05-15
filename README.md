@@ -93,7 +93,7 @@ missing_data <- 29999
 
 ### 3. Processing Functions
 
-Define functions for cleaning directories, loading AOI shapefiles, processing raster files, and deleting files and folders:
+Define functions for cleaning directories, loading AOI geojson files, processing raster files, and deleting files and folders:
 
 ```R
 clean_directory <- function(path, patterns) {
