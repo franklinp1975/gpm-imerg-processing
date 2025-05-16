@@ -194,6 +194,10 @@ deleteFilesAndFolders(dir_config$input)
 
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
+
+## E-video 
+Guidelines: https://goo.su/aHicbG
+
 ## Contact
 
 For any questions or feedback, please contact [franklinparedes75@gmail.com](franklinparedes75@gmail.com).
